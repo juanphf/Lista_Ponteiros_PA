@@ -56,7 +56,7 @@ int main(){
 
   a = a >> 1; // desloca todos os bits em a uma posição para a direita, divide o inteiro positivo por 2
   b = b << 1; // desloca todos os bits em b uma posição para a esquerda, multiplica o inteiro positivo por 2
-  i = i + 1;
+  i++;
   }
   printf ("%d %d %d\n", x, y, z);
   printf("contador: %d",i);
