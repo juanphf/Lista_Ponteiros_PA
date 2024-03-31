@@ -61,4 +61,9 @@ int main(){
   printf ("%d %d %d\n", x, y, z);
   printf("contador: %d",i);
   return 0;
+
+  // Valor final:
+  // x = 15
+  // y = 13
+  // z = 0 
 }
