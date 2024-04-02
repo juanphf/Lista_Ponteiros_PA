@@ -33,6 +33,7 @@ int main() {
 
 
   // Leitura dos valores
+  printf("Digite os valores: ");
   for (int i = 0; i < n; i++) {
     scanf("%f", &valores[i]);
   }
