@@ -24,7 +24,7 @@ int main() {
   printf("Digite a quantidade de valores: ");
   scanf("%d", &n);
 
-  // Aloca memória para o vetor de floats
+  // Aloca memória para o array de floats
   valores = (float *)malloc(n * sizeof(float));
   if (valores == NULL) {
         printf("Erro ao alocar memória.\n");

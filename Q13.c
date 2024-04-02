@@ -32,7 +32,8 @@
 
 // int main() {
 //     int *ptr = (int *)malloc(sizeof(int));
-//     ptr = NULL; // O ponteiro perde a referência para a memória alocada.
+//     int a;
+//     ptr = &a; // O ponteiro perde a referência para a memória alocada.
 //     // O espaço de memória alocado não pode mais ser liberado, resultando em memory leak.
 //     return 0;
 // }
