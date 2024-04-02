@@ -49,16 +49,16 @@ int main() {
   int **A, **B, **C;
 
   // Definindo as dimensões das matrizes
-  printf("Defina a linha da matriz A: \n");
+  printf("Defina a quantidade de linhas da matriz A: \n");
   scanf("%d", &i);
 
-  printf("Defina a coluna da matriz A: \n");
+  printf("Defina a quantidade de colunas da matriz A: \n");
   scanf("%d", &j);
 
-  printf("Defina a linha da matriz B: \n");
+  printf("Defina a quantidade de linhas da matriz B: \n");
   scanf("%d", &k);
 
-  printf("Defina a coluna da matriz B: \n");
+  printf("Defina a quantidade de colunas da matriz B: \n");
   scanf("%d", &l);
 
   // Verificando se é possível fazer a multiplicação
